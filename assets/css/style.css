@@ -5,7 +5,6 @@ header{
   color: white;
 }
 
-
 .top{
   width: 100%;
   position: fixed;
@@ -33,13 +32,44 @@ header .top .button{
 
 
 
-
 /* JUMBOTRON */
-.jumbotron{
-  width: 80%;
-}
-
 .jumbo-back{
   background-color: #b4d0e7;
   height: 500px;
+}
+
+.jumbotron{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.jumbotron h1{
+  padding: 50px 0 20px;
+}
+
+.jumbo-txt{
+  width: 40%;
+}
+
+.jumbotron .jumbo-txt p{
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.jumbotron .jumbo-txt div{
+  margin-bottom: 20px;
+}
+
+.jumbotron .jumbo-txt i{
+  font-size: 30px;
+}
+
+.jumbo-img{
+  width: 60%;
+  height: 350px;
+  padding: 50px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
 }
