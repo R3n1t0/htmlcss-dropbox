@@ -1,0 +1,26 @@
+/* HEADER */
+header{
+  height: 80px;
+  line-height: 80px;
+  color: white;
+}
+
+.top{
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: white;
+}
+
+
+
+/* JUMBOTRON */
+.jumbotron{
+  width: 80%;
+}
+
+.jumbo-back{
+  background-color: #b4d0e7;
+  height: 500px;
+}
