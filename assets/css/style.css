@@ -1,7 +1,7 @@
 /* HEADER */
 header{
-  height: 70px;
-  line-height: 70px;
+  height: 60px;
+  line-height: 60px;
   color: white;
 }
 
@@ -23,7 +23,7 @@ header .top .menu nav ul li{
 
 header .top .menu nav ul li a{
   color: black;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 header .top .button{
@@ -35,29 +35,16 @@ header .top .button{
 /* JUMBOTRON */
 .jumbo-back{
   background-color: #b4d0e7;
-  height: 500px;
-}
-
-.jumbotron{
-  width: 80%;
-  margin: 0 auto;
+  height: 550px;
 }
 
 .jumbotron h1{
-  padding: 50px 0 20px;
-}
-
-.jumbo-txt{
-  width: 40%;
+  padding: 40px 0 20px;
 }
 
 .jumbotron .jumbo-txt p{
   width: 80%;
-  margin-bottom: 20px;
-}
-
-.jumbotron .jumbo-txt div{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .jumbotron .jumbo-txt i{
@@ -66,10 +53,47 @@ header .top .button{
 
 .jumbo-img{
   width: 60%;
-  height: 350px;
+  height: 400px;
   padding: 50px;
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-position: center;
   border-radius: 20px;
 }
+
+/* SEARCH */
+main .container .search{
+  padding: 150px 0 30px;
+}
+
+
+/* PLANS */
+.plans{
+  margin-top: 30px;
+}
+
+.col-str{
+  width: calc(100% /3 - 35px);
+  border: 1px solid darkgrey;
+  padding: 5px 5px;
+  
+}
+
+.down{
+  border-top: 0px;
+  text-align: left;
+  padding: 30px 25px;
+}
+
+.container .plans .down i{
+  font-size: 15px;
+}
+
+.function{
+  margin: 40px 0 30px;
+}
+
+.container .plans .down .checked nav ul li{
+  margin-bottom: 20px;
+}
+
