@@ -20,6 +20,7 @@
   width: 70%;
   max-width: 1100px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .btn{
@@ -30,6 +31,7 @@
 }
 
 .btn-big{
+  
   font-size: 14px;
   padding: 7px 60px;
 }

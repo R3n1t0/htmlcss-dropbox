@@ -29,7 +29,7 @@ header .top .menu nav ul li a{
 header .top .button{
   margin: 0 20px;
 }
-
+/* HEADER */
 
 
 /* JUMBOTRON */
@@ -60,6 +60,8 @@ header .top .button{
   background-position: center;
   border-radius: 20px;
 }
+/* JUMBOTRON */
+
 
 /* SEARCH */
 main .container .search{
@@ -68,18 +70,14 @@ main .container .search{
 
 
 /* PLANS */
-.plans{
-  margin-top: 30px;
-}
-
 .col-str{
   width: calc(100% /3 - 35px);
-  border: 1px solid darkgrey;
-  padding: 5px 5px;
-  
+  border: 1px solid lightgrey;
+  padding: 5px;
 }
 
-.down{
+.col-down{
+  height: 850px;
   border-top: 0px;
   text-align: left;
   padding: 30px 25px;
@@ -93,7 +91,33 @@ main .container .search{
   margin: 40px 0 30px;
 }
 
-.container .plans .down .checked nav ul li{
+.container .col-down .checked nav ul li{
   margin-bottom: 20px;
 }
+/* SEARCH */
+
+
+/* ENTERPRISE */
+.enterprise-up{
+  width: 100%;
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+
+.enterprise-down{
+  width: 100%;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  border-top: 0px;
+}
+
+.enterprise-down .txt{
+  width: 70%;
+}
+
+.enterprise-down .button{
+  width: 30% - 20px;
+}
+
+
 
