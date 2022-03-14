@@ -119,5 +119,78 @@ main .container .search{
   width: 30% - 20px;
 }
 
+.enterprise-down .txt{
+  display: inline-block;
+}
+/* ENTERPRISE */
+
+
+/* PARTNER */
+.container .partner .image{
+  width: 55%;
+  height: 450px;
+  background-image: url("../img/partner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container .partner .text{
+  width: 45%;
+  padding-left: 30px;
+}
+/* PARTNER */
+
+
+/* BUISNES */
+.col{
+  width: calc(100% /3 - 35px);
+  margin-bottom: 40px;
+}
+
+.container .col .col-image{
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.container .col .switch{
+  background-image: url("../img/business-feature-switching-tools.png");
+}
+
+.container .col .cordinate{
+  background-image: url("../img/business-feature-coordinate-it.png");
+}
+
+.container .col .device{
+  background-image: url("../img/business-feature-multi-device.png");
+}
+
+.container .col .integration{
+  background-image: url("../img/business-feature-integrations-it.png");
+}
+
+.container .col .files{
+  background-image: url("../img/business-feature-send-files-it.png");
+}
+
+.container .col .security{
+  background-image: url("../img/business-feature-security.png");
+}
+
+.container .col h3{
+  margin-bottom: 20px;
+}
+.container .col p span{
+  text-decoration: underline;
+} 
+/* BUISNES */
+
+
+
+
+
+
+
 
 
