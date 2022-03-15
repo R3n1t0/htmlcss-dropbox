@@ -65,6 +65,10 @@
   margin-bottom: 30px;
 }
 
+.mb-50{
+  margin-bottom: 50px;
+}
+
 .mt-30{
   margin-top: 30px;
 }
@@ -81,6 +85,11 @@
   width: 20%;
 }
 
+.wd-50{
+  width: 50%;
+}
+
+
 .opac{
   opacity: .4;
 }
@@ -89,9 +98,6 @@
   display: none;
 }
 
-footer{
-  background-color: black;
-}
 
 
 
