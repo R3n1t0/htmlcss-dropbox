@@ -138,6 +138,7 @@ main .container .search{
   width: 45%;
   padding-left: 30px;
 }
+
 /* PARTNER */
 
 
@@ -185,6 +186,74 @@ main .container .search{
   text-decoration: underline;
 } 
 /* BUISNES */
+
+
+/* 500k */
+main .hth-5 a{
+  text-decoration: underline;
+}
+/* 500k */
+
+/* LOGO PARTNER */
+main .big{
+  width: 100vw;
+}
+main .big .box{
+  width: 33%;
+  height: calc(100vw / 3);
+}
+
+main .big .box .small{
+  width: 50%;
+  height: calc(100vw / 6);
+  position: relative;
+}
+
+main .big .box .small img{
+  width: 70%;
+  height: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main .big .box .designit{
+  background-color: #a2d39b;
+}
+
+main .big .box .asu{
+  background-color: #61082b;
+}
+
+main .big .box .uof{
+  background-color: #0093ce;
+}
+
+main .big .box .topps{
+  background-color: #ff1c1c;
+}
+
+main .big .box .relief{
+  background-color: #d5001f;
+}
+
+main .big .box .hearts{
+  background-color: #b4d0e7;
+}
+
+main .big .box .planet{
+  background-color: #0d2481;
+}
+
+main .big .box .clear{
+  background-color: #ffd830;
+}
+
+
+
+
+/* LOGO PARTNER */
 
 
 

@@ -20,7 +20,7 @@
   width: 70%;
   max-width: 1100px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .btn{
@@ -31,9 +31,17 @@
 }
 
 .btn-big{
-  width: 80%;
+  width: 70%;
   font-size: 14px;
   padding: 7px 60px;
+}
+
+.btn-white{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 7px 20px;
+  font-size: 14px;
 }
 
 .jumbotron{
