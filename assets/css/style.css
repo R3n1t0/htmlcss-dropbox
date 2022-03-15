@@ -9,6 +9,7 @@ header{
   width: 100%;
   position: fixed;
   background-color: white;
+  z-index: 999;
 }
 
 .top .logo a img{
@@ -139,6 +140,9 @@ main .container .search{
   padding-left: 30px;
 }
 
+.btn-white:active{
+  background-color: lightgray;
+}
 /* PARTNER */
 
 
@@ -194,6 +198,7 @@ main .hth-5 a{
 }
 /* 500k */
 
+
 /* LOGO PARTNER */
 main .big{
   width: 100vw;
@@ -216,7 +221,19 @@ main .big .box .small img{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  filter: invert(1);
 }
+
+main .big .credits{
+  padding: 40px;
+  background-color: rgb(245, 245, 245);
+}
+
+main .big .credits img{
+  width: 35%;
+  height: 20%;
+}
+
 
 main .big .box .designit{
   background-color: #a2d39b;
@@ -251,15 +268,62 @@ main .big .box .clear{
 }
 
 
+/* Porta */
+.big .porta{
+  width: 100vw;
+  height: calc(100vw / 5);
+  background-color: #b4d0e7;
+  position: relative;
+  margin-bottom: 80px;
+}
 
+main .big .porta .container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main .big .porta .container h2{
+  color: #61082b;
+}
+
+main .big .porta .container a{
+  border: none;
+}
+/* Porta*/
 
 /* LOGO PARTNER */
 
 
 
+/* DOMANDE */
+main .container .quest span{
+  font-weight: 550;
+}
+
+main .container .quest{
+  position: relative;
+}
+
+main .container .quest i{
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(-50%, 0%);
+}
+
+main .container .quest:hover i{
+  display: none;
+}
+/* DOMANDE */
 
 
-
+/* FOOTER */
+footer .foot{
+  width: 80%;
+  margin: 0 auto;
+}
 
 
 

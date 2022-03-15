@@ -33,7 +33,7 @@
 .btn-big{
   width: 70%;
   font-size: 14px;
-  padding: 7px 60px;
+  padding: 7px 50px;
 }
 
 .btn-white{
@@ -83,6 +83,10 @@
 
 .opac{
   opacity: .4;
+}
+
+.none{
+  display: none;
 }
 
 

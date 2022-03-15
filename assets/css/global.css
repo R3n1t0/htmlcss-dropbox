@@ -10,6 +10,7 @@ ul{
 
 a{
   text-decoration: none;
+  color: #0b67ff;
 }
 
 h1{
@@ -18,4 +19,8 @@ h1{
 
 h2{
   font-size: 40px;
+}
+
+hr{
+  opacity: .4;
 }
