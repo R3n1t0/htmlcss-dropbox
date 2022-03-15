@@ -323,7 +323,27 @@ main .container .quest:hover i{
 footer .foot{
   width: 80%;
   margin: 0 auto;
+  color: white;
+  padding: 50px 0 30px;
 }
+
+footer .foot .foot-list {
+  width: 20%;
+}
+
+footer .foot .foot-list nav ul li{
+  margin: 10px 0px;
+}
+
+footer .foot .foot-list nav ul li a{
+ color: white;
+}
+
+footer .foot .mt-30{
+  opacity: .4;
+}
+
+
 
 
 
