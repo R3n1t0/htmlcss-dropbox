@@ -205,10 +205,10 @@ main .hth-5 a{
 
 /* LOGO PARTNER */
 main .big{
-  width: 100vw;
+  width: 100%;
 }
 main .big .box{
-  width: 33%;
+  width: calc(100% / 3);
   height: calc(100vw / 3);
 }
 
@@ -274,7 +274,7 @@ main .big .box .clear{
 
 /* Porta */
 .big .porta{
-  width: 100vw;
+  width: 100%;
   height: calc(100vw / 5);
   background-color: #b4d0e7;
   position: relative;
@@ -343,11 +343,7 @@ footer .foot .foot-list nav ul li a{
  color: white;
 }
 
-footer .foot .mt-30{
-  opacity: .4;
+footer .foot .mt-30 i{
+  vertical-align: middle;
 }
-
-
-
-
-
+/* FOOTER */
